@@ -130,3 +130,40 @@ AI is used to enhance system intelligence:
           Auto Claim Trigger  
                  ↓  
             Instant Payout  
+---
+
+## 🔐 10. Adversarial Defense & Anti-Spoofing Strategy
+
+### 1. Differentiation Strategy
+
+Our system does not rely only on GPS data. It differentiates between genuine users and fraudulent actors using behavioral analysis.
+
+- Checks if the rider was actively completing deliveries before the disruption  
+- Compares current activity with historical working patterns  
+- Detects unusual behavior such as repeated claims without delivery activity  
+
+---
+
+### 2. Data Points Used
+
+To prevent GPS spoofing, the system analyzes multiple data sources:
+
+- Delivery activity logs (orders, timestamps)  
+- App usage patterns  
+- Device and network consistency  
+- Historical location behavior  
+- Correlation between actual weather and delivery activity  
+
+---
+
+### 3. UX Balance (Fairness to Users)
+
+To ensure genuine users are not affected:
+
+- Suspicious claims are flagged instead of immediately rejected  
+- Partial payouts can be provided in uncertain cases  
+- Additional verification is triggered only when necessary  
+
+This ensures fairness while preventing fraud.
+
+---
