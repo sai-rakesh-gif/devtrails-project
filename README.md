@@ -111,15 +111,22 @@ AI is used to enhance system intelligence:
 
 ## 🔄 System Flow Diagram
 
-```mermaid
-flowchart TD
-    A[User Registers] --> B[Select Weekly Plan]
-    B --> C[Assign Zone-Based Risk Score]
-    C --> D[Track Working Hours and Peak Time]
-    D --> E[Monitor Weather and AQI Data]
-    E --> F[Trigger Condition Met]
-    F --> G[AI Validation]
-    G --> H[Calculate Income Loss]
-    H --> I[Auto Claim Trigger]
-    I --> J[Instant Payout]
-```
+            User Registers  
+                 ↓  
+          Select Weekly Plan  
+                 ↓  
+      Assign Zone-Based Risk Score  
+                 ↓  
+     Track Working Hours + Peak Time  
+                 ↓  
+       Monitor Weather & AQI Data  
+                 ↓  
+         Trigger Condition Met  
+                 ↓  
+    AI Validation (GPS + Activity Check)  
+                 ↓  
+         Calculate Income Loss  
+                 ↓  
+          Auto Claim Trigger  
+                 ↓  
+            Instant Payout  
