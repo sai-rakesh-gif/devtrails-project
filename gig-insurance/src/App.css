@@ -1,0 +1,141 @@
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+  margin: 0;
+  color: #111827;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* HEADINGS */
+h1 {
+  color: #0f172a;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+h2 {
+  font-weight: 900;
+  color: #111827;
+}
+
+h3 {
+  font-weight: 800;
+  color: #111827;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  text-align: left;
+  color: #111827;
+}
+
+/* TEXT FIX */
+p, label, li {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* INPUTS */
+input, select {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  max-width: 240px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-weight: 600;
+  color: #111827;
+  background: #fff;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 14px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b00;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff7f1a;
+}
+
+/* CLAIM BOX */
+.claim-box {
+  background: #d1fae5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px solid #10b981;
+  font-weight: 700;
+}
+
+/* PREMIUM BOX */
+.premium-box {
+  background: #ecfdf5;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #10b981;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+/* EXCLUSIONS FIX */
+.exclusions {
+  background: #fff1f2;
+  border: 2px solid #f43f5e;
+  border-radius: 8px;
+
+  padding: 12px 16px;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+/* REMOVE DEFAULT OL SHIFT */
+.exclusions ol {
+  margin: 0;
+  padding-left: 24px;   /* 👈 key fix for perfect alignment */
+}
+
+/* CLEAN LIST ITEMS */
+.exclusions li {
+  margin: 6px 0;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* GRID FIX (AI ENGINE LAYOUT) */
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+/* HR */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 15px 0;
+}
